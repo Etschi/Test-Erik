@@ -1,0 +1,25 @@
+.custom-item-divider.item-divider {
+  background-color: white;
+  border-color: white;
+}
+
+.messwerte{
+  font-size: 50px;
+}
+
+.notfall{
+  font-size: 50px;
+}
+
+.medikamente{
+  font-size: 50px;
+}
+
+.notizen{
+  font-size: 50px;
+}
+
+.erinnerungen{
+  font-size: 50px;
+}
+

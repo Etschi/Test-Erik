@@ -1,0 +1,29 @@
+<ion-view title="Notizen" id="page6" class=" ">
+    <ion-content padding="true" class="has-header">
+     
+     <ion-list>
+     <button class="button button-icon" ng-click="newTask()">
+    <i class="ion-compose icon"></i>
+</button>
+    	<ion-item ng-repeat="task in tasks" class="item-icon-right" ng-click="tasks.alert({{task.title}})"
+>
+    	<i class="icon ion-ios-arrow-left"></i>
+<ion-option-button class="button-assertive"
+            ng-click="tasks.splice($index, 1)">
+    Delete
+</ion-option-button>
+<ion-option-button class="button-energized"
+            ng-click="edit(task)">
+    Edit
+</ion-option-button>
+
+       {{task.title}}
+    </ion-item>
+    </ion-list>
+     
+
+
+
+    </ion-content>
+
+</ion-view>
